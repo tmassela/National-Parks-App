@@ -29,7 +29,7 @@ function displayResults(responseJson) {
       `<li><h3>${responseJson.data[i].fullname}</h3>
       <p>${responseJson.data[i].description}</p>
       <br>
-      <p><a href="${responseJson.data[i].url} target="blank">${responseJson.data[i].url}</a></p>
+      <p><a href="${responseJson.data[i].directionsurl} target="blank">${responseJson.data[i].url}</a></p>
       <br>
       <p>${responseJson.data[i].addresses[0].type} Address</p>
       <p>${responseJson.data[i].addresses[0].line1}</p>
